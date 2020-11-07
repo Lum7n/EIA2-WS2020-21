@@ -1,0 +1,47 @@
+body {
+    background-color: #885847;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+#startWindow {
+    display: inherit;
+    padding: 20px;
+}
+
+main {
+    display: none;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30vh;
+    text-align: center;
+    position: relative;
+    top: -0.6em;
+    left: -0.1em;
+}
+
+pre {
+    font-size: 4vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+#dance_font {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5.5vh;
+}
+
+input {
+    font-family: 'Raleway', sans-serif;
+}
+
+textarea  {
+    font-family: 'Raleway', sans-serif;
+}
