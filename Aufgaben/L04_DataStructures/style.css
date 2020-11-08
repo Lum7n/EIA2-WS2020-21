@@ -45,3 +45,20 @@ input {
 textarea  {
     font-family: 'Raleway', sans-serif;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto 550px;
+    grid-column-gap: 15px;
+    padding: 10px;
+    background-color: unset;
+    border: unset;
+    border-color: unset;
+}
+
+.grid-item {
+    background-color:unset;
+    border: 1.5px solid #000000cc;
+    padding: 5px 10px;
+    border-radius: 3px;
+}

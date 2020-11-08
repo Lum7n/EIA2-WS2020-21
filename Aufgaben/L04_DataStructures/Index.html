@@ -22,29 +22,48 @@
 
     <main id="main">
         <pre>Zaubertrank-Rezept-Editor  "<span id="dance_font">Hexenkessel</span> "</pre>
-        <form>
-            <input type="text" name="potion_name" id="potion_name" placeholder="Name">
-            <textarea name="" id="" cols="40" rows="5" placeholder="Beschreibung"></textarea>
-            <textarea name="" id="" cols="30" rows="8" placeholder="Risiken und Nebenwirkungen"></textarea>
-            <input type="time" name="" id="">
-            <input type="radio" name="" id="">
-            <input type="checkbox" name="" id="">
-            <input type="range" name="" id="">
-            <input type="number" name="" id="">
-            <progress></progress>
+        <div class="grid-container">
 
+            <div class="grid-item">
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <textarea name="description" id="description" cols="40" rows="5"
+                        placeholder="Beschreibung"></textarea>
+                    <textarea name="risks" id="risks" cols="30" rows="8" placeholder="Risiken und Nebenwirkungen"></textarea>
+                    <input type="time" name="" id="f">
+                    <input type="radio" name="" id="fg">
+                </form>
+            </div>
 
-            <input type="text" name="eLaden" list="eOptionsL" placeholder="Laden">
-            <datalist id="eOptionsL">
-                <option value="Aldi"> </option>
-                <option value="Netto"> </option>
-                <option value="Lidl"> </option>
-                <option value="Rewe"> </option>
-                <option value="Edeka"> </option>
-                <option value="Bäcker"> </option>
-                <option value="Metzger"> </option>
-            </datalist>
-        </form>
+            <div class="grid-item">
+                <form>
+                    <input type="checkbox" name="" id="fgg">
+                    <input type="range" name="" id="fgggg">
+                    <input type="number" name="" id="ggf">
+                    <progress></progress>
+                    <input type="text" name="eLaden" list="eOptionsL" placeholder="Laden">
+                    <datalist id="eOptionsL">
+                        <option value="Aldi"> </option>
+                        <option value="Netto"> </option>
+                        <option value="Lidl"> </option>
+                        <option value="Rewe"> </option>
+                        <option value="Edeka"> </option>
+                        <option value="Bäcker"> </option>
+                        <option value="Metzger"> </option>
+                    </datalist>
+                </form>
+            </div>
+
+            <div class="grid-item">
+                <span id="potionName">Name: </span>
+                </br>
+                <span id="potionDescription">Beschreibung: </span>
+                </br>
+                <span id="potionRisks">Risiken und Nebenwirkungen: </span>
+            </div>
+
+        </div>
+
     </main>
 </body>
 
