@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway:wght@400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="Fav_Hogwarts.ico">
+    <script src="script.js"></script>
+    <title>Hexenkessel</title>
+</head>
+
+<body>
+
+    <div id="startWindow">
+        <img src="Hogwarts_logo.png" width="16%">
+        <h1>Hexenkessel</h1>
+    </div>
+
+    <main id="main">
+        <pre>Zaubertrank-Rezept-Editor  "<span id="dance_font">Hexenkessel</span> "</pre>
+        <div class="grid-container">
+
+            <div class="grid-item">
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <br>
+                    <textarea name="description" id="description" cols="40" rows="5"
+                        placeholder="Beschreibung"></textarea>
+                    <br>
+                    <textarea name="risks" id="risks" cols="30" rows="8"
+                        placeholder="Risiken und Nebenwirkungen"></textarea>
+                    <br>
+                    <div id="durationEffect" class="field">
+                        <p>Wirkungsdauer</p>
+                        <input type="time" name="durationEffect" id="duration">
+                    </div>
+                    <div id="radio_check" class="field">
+                        <input type="radio" name="radio" value="radio1" id="radio1">
+                        <label for="radio1">Liebestrank</label>
+                        <br>
+                        <input type="radio" name="radio" value="radio2" id="radio2">
+                        <label for="radio2">Stärketrank</label>
+                        <br>
+                        <input type="radio" name="radio" value="radio3" id="radio3">
+                        <label for="radio3">Alterungstrank</label>
+                        <br>
+                        <input type="radio" name="radio" value="radio4" id="radio4">
+                        <label for="radio4">Schlaftrank</label>
+                        <br>
+                        <input type="radio" name="radio" value="radio5" id="radio5">
+                        <label for="radio5">Heilungstrank</label>
+                        <br>
+                        <input type="radio" name="radio" value="radio6" id="radio6">
+                        <label for="radio6">sonstiger Trank</label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="grid-item">
+                <form>
+                    <div id="radio_check" class="field">
+                        <input type="checkbox" name="checkbox" value="check1" id="check1">
+                        <label for="check1">Spinnenbeine</label>
+                        <output id="range1out" name="out">1 Stk.</output>
+                        <input type="range" name="range1" id="range1" min="1" max="20">
+                        <br>
+                        <input type="checkbox" name="checkbox" value="check2" id="check2">
+                        <label for="check2">Mäuseschwänze</label>
+                        <output id="range2out" name="out">1 Stk.</output>
+                        <input type="range" name="range2" id="range2" min="1" max="20">
+                        <br>
+                        <input type="checkbox" name="checkbox" value="check3" id="check3">
+                        <label for="check3">Echsenblut</label>
+                        <output id="range3out" name="out">1 ml</output>
+                        <input type="range" name="range3" id="range3" min="1" max="20">
+                        <br>
+                        <input type="checkbox" name="checkbox" value="check4" id="check4">
+                        <label for="check4">Froschaugen</label>
+                        <output id="range4out" name="out">1 Stk.</output>
+                        <input type="range" name="range4" id="range4" min="1" max="20">
+                    </div>
+                    <div id="temperatur" class="field">
+                        <p id="tempText">Temperatur</p>
+                        <input type="number" name="temp" id="stepper" min="10" max="140"> °C
+                        <progress max="140" value="10" />
+                    </div>
+                    <div id="stir" class="field">
+                        <p>Rühren</p>
+                        <input type="time" name="durationStir" id="durationStir">
+                        <input type="text" name="listInt" id="datalist" list="intOptions" placeholder="Intensität">
+                        <datalist id="intOptions">
+                            <option value="sehr schwach"> </option>
+                            <option value="schwach"> </option>
+                            <option value="normal"> </option>
+                            <option value="stark"> </option>
+                            <option value="sehr stark"> </option>
+                            <option value="extrem"> </option>
+                        </datalist>
+                    </div>
+                    <br>
+                    Zubereitungsdauer: 
+                    <input type="time">
+                    <br>
+                    Konsistenz: 
+                    <input type="text" name="listKn" id="datalist" list="konOptions">
+                    <datalist id="konOptions">
+                        <option value="flüssig"> </option>
+                        <option value="schleimig"> </option>
+                        <option value="gelee-artig"> </option>
+                        <option value="fest"> </option>
+                    </datalist>
+                    <br>
+                    Farbe: 
+                    <input type="color" name="color" id="color" value="#c45454">
+                </form>
+            </div>
+
+            <div class="grid-item">
+                <span id="potionName">Name: </span>
+                </br>
+                <span id="potionDescription">Beschreibung: </span>
+                </br>
+                <span id="potionRisks">Risiken und Nebenwirkungen: </span>
+                <br>
+                <button type="button" form="form" id="submit">send to Snape</button>
+            </div>
+
+        </div>
+
+    </main>
+</body>
+
+</html>

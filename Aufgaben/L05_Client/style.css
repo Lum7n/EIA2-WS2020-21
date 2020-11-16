@@ -1,0 +1,134 @@
+body {
+    background-color: #885847;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+#startWindow {
+    display: inherit;
+    padding: 20px;
+}
+
+main {
+    display: none;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30vh;
+    text-align: center;
+    position: relative;
+    top: -0.6em;
+    left: -0.1em;
+}
+
+pre {
+    font-size: 4vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+#dance_font {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5.5vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto 550px;
+    grid-column-gap: 15px;
+    padding: 10px;
+    background-color: unset;
+    border: unset;
+    border-color: unset;
+}
+
+.grid-item {
+    background-color:unset;
+    border: 1.5px solid #000000cc;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.field {
+    background-color: white;
+    border: 2px solid grey;
+    padding: 5px;
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 3px;
+}
+
+input {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-bottom: 3px;
+    padding: 4px 0px 3px 4px;
+}
+
+textarea  {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
+
+p {
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+output {
+    color: #18a1ca;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 2px;
+}
+
+#durationEffect {
+    width: 120px;
+}
+
+#radio_check {
+    color: black;
+    width: 220px;
+}
+
+#temperatur {
+    width: 166px;
+    font-size: 22px;
+}
+
+#tempText {
+    font-size: 16px;
+}
+
+#stepper {
+    width: 60px;
+}
+
+progress {
+	height: 35px;
+	width: 60px;
+    transform: rotate(-90deg);
+    margin: 0px 0px 5px 5px;
+}
+
+#stir {
+    width: 235px;
+}
+
+#datalist {
+    width: 128px;
+    padding: 6px 0px 5px 5px;
+    margin-left: 8px;
+}
+
+#color {
+    margin-left: 120px;
+    padding: 1.2px;
+}
