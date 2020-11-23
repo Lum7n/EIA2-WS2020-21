@@ -1,7 +1,7 @@
 import * as Http from "http";
 import * as Url from "url";
 
-export namespace WeWork4U_4 {
+export namespace Hexenkessel_L06 {
     let server: Http.Server = Http.createServer();
 
     let port: number | string | undefined = process.env.PORT;

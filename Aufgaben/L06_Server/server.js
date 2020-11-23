@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const Http = require("http");
 const Url = require("url");
-var WeWork4U_4;
-(function (WeWork4U_4) {
+var Hexenkessel_L06;
+(function (Hexenkessel_L06) {
     let server = Http.createServer();
     let port = process.env.PORT;
     if (port == undefined)
@@ -31,5 +31,5 @@ var WeWork4U_4;
         _response.write("This is my response");
         _response.end();
     }
-})(WeWork4U_4 = exports.WeWork4U_4 || (exports.WeWork4U_4 = {}));
+})(Hexenkessel_L06 = exports.Hexenkessel_L06 || (exports.Hexenkessel_L06 = {}));
 //# sourceMappingURL=server.js.map
