@@ -1,0 +1,13 @@
+{
+  "name": "hexenkessel",
+  "version": "1.0.0",
+  "description": "potion-recipe maker",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "node L06_Server/server.js"
+  },
+  "author": "Lum7n",
+  "license": "ISC"
+}
