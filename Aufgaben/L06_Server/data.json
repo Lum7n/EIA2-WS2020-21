@@ -1,0 +1,12 @@
+{
+
+        "ingredients": [
+            { "title": "Butter", "type": "", "price": 0.60, "id": "" },
+            { "title": "Milch", "type": "", "price": 1.20, "id": "" },
+            { "title": "Mehl", "type": "", "price": 0.85, "id": "" },
+            { "title": "Zucker", "type": "", "price": 0.50, "id": "" },
+            { "title": "Eier", "type": "", "price": 2.10, "id": "" },
+            { "title": "Salz", "type": "", "price": 0.20, "id": "" },
+            { "title": "Brot", "type": "", "price": 1.30, "id": "" }
+        ]
+}
